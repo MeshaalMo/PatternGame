@@ -2,6 +2,19 @@ body {
   text-align: center;
   background-color: #011F3F;
 }
+@media  screen and (max-width: 600px) {
+  .btn{
+    margin: 5px;
+    display: inline-block;
+    height: 15rem;
+    width: 15rem;
+  }
+  #level-title {
+    font-size: 6rem;
+    margin:  5%;
+  }
+
+}
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
@@ -17,9 +30,7 @@ body {
 
 }
 .row{
-  margin: auto;
   justify-content: center;
-
 }
 
 .btn {
