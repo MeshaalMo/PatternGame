@@ -12,7 +12,13 @@ body {
 
 .container {
   display: block;
+  margin: auto;
 }
+.row{
+  margin: auto;
+  justify-content: center;
+}
+
 
 
 
